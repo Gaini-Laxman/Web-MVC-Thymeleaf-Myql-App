@@ -5,7 +5,7 @@ FROM tomcat:latest
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 
 # Copy your WAR file into the container
-ADD target/web-mvc-thymeleaf-myql-app.war web-mvc-thymeleaf-myql-app.war
+Copy target/web-mvc-thymeleaf-myql-app.war web-mvc-thymeleaf-myql-app.war
 
 # Expose the default port of the servlet container
 EXPOSE 8080
