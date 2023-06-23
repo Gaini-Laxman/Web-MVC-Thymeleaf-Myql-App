@@ -1,0 +1,5 @@
+com\klinnovations\entity\Product.class
+com\klinnovations\WebMvcThymeleafMyqlAppApplication.class
+com\klinnovations\ServletInitializer.class
+com\klinnovations\repository\ProductRepository.class
+com\klinnovations\controller\ProductController.class
